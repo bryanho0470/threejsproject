@@ -26,6 +26,7 @@ const Navbar = () => {
             Byungho &nbsp; <span> | JavaScript Mastery </span>
           </p>
         </Link>
+
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((link) => (
             <li
